@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 30px 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+header .logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+.para1 {
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+.para1 .gradient {
+  background-image: linear-gradient(
+    89.93deg,
+    #b16cea 0.89%,
+    #ff6167 44.63%,
+    #ffa84b 87.34%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+}
+
+.para2 {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.75;
+}
+
+.para3 {
+  margin-top: 20px;
+}
+
+.cv {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+hr {
+  margin-top: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.caseStudies h1 {
+  margin-top: 60px;
+  background-image: linear-gradient(
+    89.93deg,
+    #b16cea 0.89%,
+    #ff6167 44.63%,
+    #ffa84b 87.34%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+}
+
+.thumbnail {
+  margin-top: 20px;
+}
+
+.dateAndsomeShit {
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.caseStudies h2 {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.casePara {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.75;
+}

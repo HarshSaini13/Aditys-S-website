@@ -225,3 +225,162 @@ header .logo {
   opacity: 0.25;
   border: 1px solid #ffffff;
 }
+
+.aboutMe {
+  display: inline-block;
+  padding: 60px 32px;
+}
+
+.aboutMeHead h1 {
+  background: linear-gradient(
+    89.93deg,
+    #b16cea 0.89%,
+    #ff6167 44.63%,
+    #ffa84b 87.34%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+}
+
+.aboutMeHead h2 {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.about {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.socialMedia h3 {
+  margin-top: 29px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.socialMedia p span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3c3a5c;
+}
+
+.socialMedia p {
+  margin-top: 4px;
+}
+
+.socialMedia div {
+  margin-top: 12px;
+}
+
+.socialMedia div .media1 {
+  width: 28px;
+  height: 23.01px;
+  margin-right: 30px;
+}
+.socialMedia div .media2 {
+  width: 25px;
+  height: 25.28px;
+  margin-right: 30px;
+}
+.socialMedia div .media3 {
+  width: 25px;
+  height: 25.28px;
+}
+
+footer {
+  background-color: black;
+  padding: 60px 32px;
+}
+footer .footNote {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footNote2 {
+  background: linear-gradient(
+    89.93deg,
+    #b16cea 0.89%,
+    #ff6167 44.63%,
+    #ffa84b 87.34%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+}
+.footNote3 {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.footMenu {
+  margin-top: 32px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footMenu li {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.footLogo {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+.address {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.5;
+}

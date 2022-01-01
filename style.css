@@ -163,6 +163,7 @@ header .logo {
 
 .img img {
   width: 100%;
+  max-width: 400px;
 }
 
 .writingsHead h1 {
@@ -383,4 +384,67 @@ footer .footNote {
   line-height: 140%;
   color: #ffffff;
   opacity: 0.5;
+}
+
+@media (min-width: 1000px) {
+  header {
+    padding: 22px 160px 0px;
+  }
+  .intro {
+    padding: 0px 160px;
+  }
+  .caseStudies {
+    padding: 100px 160px;
+  }
+  header .logo {
+    font-size: 28px;
+  }
+  .para1 {
+    margin-top: 122px;
+    font-size: 72px;
+  }
+  .para2 {
+    margin-top: 24px;
+    font-size: 22px;
+  }
+  .para3 {
+    margin-top: 32px;
+  }
+  .cv {
+    font-size: 22px;
+  }
+  .line1 {
+    margin-top: 100px;
+  }
+  .caseStudies h1 {
+    font-size: 22px;
+  }
+  .caseStudy1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .thumbnail {
+    margin-top: 36px;
+  }
+  .dateAndsomeShit {
+    margin-top: 48px;
+    font-size: 18px;
+  }
+  .caseStudies h2 {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+  .casePara {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .viewProject a {
+    font-size: 22px;
+  }
+  .viewProject {
+    margin-top: 43px;
+  }
+  .img img {
+    max-width: 548px;
+  }
 }

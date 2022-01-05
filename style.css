@@ -422,6 +422,12 @@ footer .footNote {
   .caseStudy1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 143px;
+  }
+  .caseStudy2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 143px;
   }
   .thumbnail {
     margin-top: 36px;
@@ -446,5 +452,7 @@ footer .footNote {
   }
   .img img {
     max-width: 548px;
+  }
+  .writings {
   }
 }

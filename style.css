@@ -454,5 +454,33 @@ footer .footNote {
     max-width: 548px;
   }
   .writings {
+    padding: 100px 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .aboutMe {
+    padding: 100px 160px;
+  }
+  footer {
+    padding: 100px 160px;
+  }
+  .gridomania {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .socialMedia {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .about {
+    grid-column: 2/3;
+  }
+  .gridomania2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footLogoGrid {
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 }

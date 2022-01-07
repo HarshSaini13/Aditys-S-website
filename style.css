@@ -458,6 +458,13 @@ footer .footNote {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .writingsHead h1 {
+    font-size: 22px;
+  }
+  .writingsHead h2 {
+    margin-top: 16px;
+    font-size: 54px;
+  }
   .aboutMe {
     padding: 100px 160px;
   }
@@ -466,7 +473,7 @@ footer .footNote {
   }
   .gridomania {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
   }
   .socialMedia {
     grid-column: 1/2;
@@ -482,5 +489,72 @@ footer .footNote {
   .footLogoGrid {
     grid-column: 1/2;
     grid-row: 1/2;
+  }
+  footer .footNote {
+    font-size: 54px;
+  }
+  .footNote2 {
+    font-size: 54px;
+  }
+  .footNote3 {
+    margin-top: 40px;
+    font-size: 28px;
+  }
+  .footLogo {
+    margin-top: 89px;
+    font-size: 28px;
+  }
+  .address {
+    margin-top: 12px;
+    font-size: 18px;
+  }
+  .footMenu {
+    margin-top: 89px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footMenu li {
+    margin-bottom: 24px;
+    font-size: 22px;
+  }
+  .writingsLi {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .aboutLi {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .aboutMeHead h1 {
+    font-size: 22px;
+  }
+  .aboutMeHead h2 {
+    margin-top: 16px;
+    font-size: 54px;
+  }
+  .socialMedia h3 {
+    margin-top: 32px;
+    font-size: 22px;
+  }
+  .socialMedia p {
+    margin-top: 8px;
+    font-size: 22px;
+  }
+  .about {
+    margin-top: 32px;
+    font-size: 22px;
+  }
+  .socialMedia p span {
+    font-size: 22px;
+  }
+  .matter1 p:nth-of-type(1) {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .writingsMatter h2 {
+    margin-top: 12px;
+    font-size: 24px;
+  }
+  .writingsMatter hr {
+    margin-top: 32px;
   }
 }
